@@ -1,8 +1,8 @@
-#include "reflectionproberenderer.h"
 #include <fstream>
+#include <iostream>
 #include <Windows.h>
 #include "PathTraceBaker.h"
-#include <iostream>
+#include "ReflectionProbeRenderer.h"
 
 void LDEngine::Rendering::ReflectionProbes::ReflectionProbeBaker::PrepareReflectionProbeBaking(unsigned int Resolution)
 {

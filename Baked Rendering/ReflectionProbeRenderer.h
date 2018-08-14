@@ -1,7 +1,7 @@
 #pragma once
-#include <Mesh/Mesh.h>
-#include <Core Rendering/FrameBuffer.h>
-#include <Real Time Rendering/ShadowPass.h>
+#include "Core Rendering/FrameBuffer.h"
+#include "Mesh/Mesh.h"
+#include "Real Time Rendering/ShadowPass.h"
 
 const std::string OutPutNames[] = { "PosX.png", "NegX.png", "PosY.png", "NegY.png", "PosZ.png", "NegZ.png" };
 

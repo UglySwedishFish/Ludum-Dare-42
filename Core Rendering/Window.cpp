@@ -1,5 +1,5 @@
-#include "window.h"
 #include <GL/glew.h>
+#include "Window.h"
 
 void Window::SetResolution(Vector2i Resolution)
 {

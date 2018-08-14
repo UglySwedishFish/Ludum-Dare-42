@@ -1,7 +1,6 @@
-#include "Enemy.h"
 #include <iostream>
-#include <Core Rendering/Texture.h>
-
+#include "Core Rendering/Texture.h"
+#include "Enemy.h"
 
 void LDEngine::Game::Enemy::UpdateEnemy(EnemyPath & Path, Window & Window, Control::Camera & Camera, std::vector<Collisions::AABB>& CollisionBoxes, std::vector<ParticleRequest> & ParticleRequests)
 {

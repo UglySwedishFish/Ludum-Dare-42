@@ -1,7 +1,6 @@
 #pragma once
-
-#include <Core\Core.h> 
-#include <Core Rendering/Window.h>
+#include "Core/Core.h"
+#include "Core Rendering/Window.h"
 
 namespace LDEngine {
 	namespace Control {

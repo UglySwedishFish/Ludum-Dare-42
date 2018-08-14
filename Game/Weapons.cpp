@@ -1,7 +1,6 @@
-#include "Weapons.h"
-#include <Mesh/AnimatedMesh.h>
 #include <iostream>
-
+#include "Mesh/AnimatedMesh.h"
+#include "Weapons.h"
 
 LDEngine::Rendering::Mesh::AnimatedKeyFrameModel PistolModel; 
 

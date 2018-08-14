@@ -1,8 +1,7 @@
 #pragma once
+#include <cmath>
+#include "Core Rendering/Window.h"
 
-
-#include <math.h> 
-#include <Core Rendering/Window.h>
 #define PI 3.14159265
 
 namespace LDEngine {

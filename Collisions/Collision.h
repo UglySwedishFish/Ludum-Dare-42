@@ -1,6 +1,6 @@
 #pragma once
-#include <Core/Core.h>
 #include <array>
+#include "Core/Core.h"
 
 namespace LDEngine {
 	namespace Collisions {

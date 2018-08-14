@@ -1,10 +1,10 @@
 #pragma once
 #include <vector>
-#include <Core/Core.h>
-#include <Core/Camera.h>
-#include <Collisions/Collision.h>
-#include <Mesh/AnimatedMesh.h>
-#include <Real Time Rendering/ParticleSystem.h>
+#include "Collisions/Collision.h"
+#include "Core/Camera.h"
+#include "Core/Core.h"
+#include "Mesh/AnimatedMesh.h"
+#include "Real Time Rendering/ParticleSystem.h"
 #include "Sound.h"
 
 namespace LDEngine {
