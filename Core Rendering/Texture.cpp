@@ -1,9 +1,9 @@
-#include "texture.h"
-#include <GL/glew.h>
-#include <Core Rendering/FrameBuffer.h>
-#include <SFML/Graphics.hpp>
 #include <iostream>
-#include <Baked Rendering/reflectionproberenderer.h>
+#include <GL/glew.h>
+#include <SFML/Graphics.hpp>
+#include "Baked Rendering/ReflectionProbeRenderer.h"
+#include "Core Rendering/FrameBuffer.h"
+#include "Texture.h"
 
 LDEngine::Rendering::Core::Texture2D::~Texture2D()
 {

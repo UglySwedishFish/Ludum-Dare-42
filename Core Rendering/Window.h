@@ -1,10 +1,10 @@
 #pragma once
-
-#include <glm\common.hpp>
-#include <glm\glm.hpp>
-#include <glm\mat4x4.hpp>
+#include <glm/common.hpp>
+#include <glm/glm.hpp>
+#include <glm/mat4x4.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <SFML/Graphics.hpp>
 
 using Vector2f = glm::vec2;
 using Vector2i = glm::ivec2;
@@ -29,8 +29,6 @@ using Matrix3d = glm::dmat3;
 
 using Matrix4f = glm::mat4;
 using Matrix4d = glm::dmat4;
-
-#include <SFML/Graphics.hpp>
 
 class Window {
 	Vector2i Resolution; 
@@ -63,7 +61,7 @@ class Window {
 
 	sf::Window * GetRawWindow(); 
 
-	inline Window() : Resolution(0), Fullscreen(false), RawWindow(nullptr), Title("LDEngine²"), FrameCount(0) {}
+	inline Window() : Resolution(0), Fullscreen(false), RawWindow(nullptr), Title("LDEngine?"), FrameCount(0) {}
 	Window(Vector2i Resolution, bool Fullscreen); 
 	~Window(); 
 }; 

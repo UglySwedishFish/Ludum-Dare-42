@@ -1,5 +1,5 @@
-#include "meshtexturewrapper.h"
 #include <iostream>
+#include "MeshTextureWrapper.h"
 
 LDEngine::Rendering::Mesh::WrappedModel::WrappedModel()
 {

@@ -1,7 +1,7 @@
 #pragma once
-#include <Core/Core.h>
 #include <vector>
-#include <Mesh/Mesh.h>
+#include "Core/Core.h"
+#include "Mesh/Mesh.h"
 
 namespace LDEngine {
 	namespace Rendering {

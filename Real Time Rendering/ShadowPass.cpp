@@ -1,5 +1,6 @@
+#include "Core/Core.h"
 #include "ShadowPass.h"
-#include <Core\Core.h>
+
 namespace LDEngine {
 	namespace Rendering {
 		ShadowStructure::ShadowStructure()

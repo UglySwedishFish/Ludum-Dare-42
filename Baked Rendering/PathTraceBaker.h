@@ -1,9 +1,10 @@
 #pragma once
-#include <Real Time Rendering/ShadowPass.h>
+#include "Core Rendering/FrameBuffer.h"
+#include "Core Rendering/Shader.h"
 #include "MeshTextureWrapper.h"
-#include <Core Rendering/Shader.h>
-#include <Core Rendering/FrameBuffer.h>
-#include "wraptobaketexture.h"
+#include "Real Time Rendering/ShadowPass.h"
+#include "WrapToBakeTexture.h"
+
 void SavePixelDataToImageFromFloatVector(const char *fileName, std::vector<float> data, glm::ivec2 Resolution, bool YInverted = false,bool Alpha = false);
 
 

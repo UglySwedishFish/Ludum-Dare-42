@@ -1,4 +1,4 @@
-#include "framebuffer.h"
+#include "FrameBuffer.h"
 
 LDEngine::Rendering::Core::FrameBufferObject::FrameBufferObject(glm::ivec2 Resolution, bool SamplerShadow, bool alpha, bool generatemip) 
 	: GenerateMip(generatemip), FrameBuffer(0), ColorBuffer(0), DepthBuffer(0), Resolution(Resolution)

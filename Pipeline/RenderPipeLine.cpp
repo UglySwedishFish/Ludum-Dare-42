@@ -1,8 +1,8 @@
-#include "RenderPipeLine.h"
-#include <Windows.h>
-#include <iostream>
 #include <fstream>
-#include <Baked Rendering/reflectionproberenderer.h>
+#include <iostream>
+#include <Windows.h>
+#include "Baked Rendering/ReflectionProbeRenderer.h"
+#include "RenderPipeLine.h"
 
 void GetFilesInDirectory(std::vector<std::string> &out, const std::string &directory)
 {

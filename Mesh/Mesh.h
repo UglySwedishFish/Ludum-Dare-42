@@ -1,16 +1,15 @@
 #pragma once
-
-#include <vector> 
-#include <unordered_map> 
-#include <assimp\cimport.h>
-#include <assimp\mesh.h>
-#include <assimp\Importer.hpp>
-#include <assimp\scene.h>
-#include <assimp\postprocess.h>
-#include <Core Rendering/Shader.h>
-#include <Core Rendering/Texture.h>
-#include <Core Rendering/Window.h>
-#include <Core\Camera.h> 
+#include <unordered_map>
+#include <vector>
+#include <assimp/cimport.h>
+#include <assimp/Importer.hpp>
+#include <assimp/mesh.h>
+#include <assimp/postprocess.h>
+#include <assimp/scene.h>
+#include "Core/Camera.h"
+#include "Core Rendering/Shader.h"
+#include "Core Rendering/Texture.h"
+#include "Core Rendering/Window.h"
 
 namespace LDEngine {
 	namespace Rendering {

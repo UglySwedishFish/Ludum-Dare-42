@@ -1,11 +1,11 @@
 #pragma once
-#include <Mesh/AnimatedMesh.h>
-#include <Core Rendering/FrameBuffer.h>
-#include <Real Time Rendering/ShadowPass.h>
-#include <Real Time Rendering/ParticleSystem.h>
-#include <Game/Wave.h>
-#include <Game/Weapons.h>
-#include <Core Rendering/UI.h>
+#include "Core Rendering/FrameBuffer.h"
+#include "Core Rendering/UI.h"
+#include "Game/Wave.h"
+#include "Game/Weapons.h"
+#include "Mesh/AnimatedMesh.h"
+#include "Real Time Rendering/ParticleSystem.h"
+#include "Real Time Rendering/ShadowPass.h"
 
 namespace LDEngine {
 	namespace Rendering {

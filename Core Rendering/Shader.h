@@ -1,4 +1,5 @@
 #pragma once
+
 namespace LDEngine {
 	namespace Rendering {
 		namespace Core {

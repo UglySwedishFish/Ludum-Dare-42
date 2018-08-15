@@ -1,6 +1,6 @@
-#include "wraptobaketexture.h"
-#include <SFML/Graphics.hpp>
 #include <iostream>
+#include <SFML/Graphics.hpp>
+#include "WrapToBakeTexture.h"
 
 struct TriangleData {
 	glm::vec3 Position;
